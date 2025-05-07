@@ -3,7 +3,7 @@ import React, {memo} from 'react'
 const RecipeModal = ({ recipe, onClose }) => {
   return (
     <>
-      <div onClick={onClose} className="fixed top-0 left-0 w-full h-full bg-black opacity-40 z-40"></div>
+      <div onClick={onClose} className="fixed top-0 left-0 w-full h-full bg-black opacity-60 z-10"></div>
       <div className="fixed top-1/2 left-1/2 bg-white z-50 p-6 rounded-lg shadow w-[95%] max-w-2xl -translate-x-1/2 -translate-y-1/2 overflow-y-auto max-h-[90vh]">
         <button
           onClick={onClose}

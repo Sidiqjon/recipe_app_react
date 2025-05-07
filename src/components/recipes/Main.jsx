@@ -3,7 +3,7 @@ import RecipeCard from './RecipeCard'
 import TagFilter from './TagFilter'
 import RecipeModal from './RecipeModal'
 
-import line from "../../assets/line.png"
+import line from "../../assets/Line.png"
 
 const BASE_URL = 'https://dummyjson.com/recipes'
 
